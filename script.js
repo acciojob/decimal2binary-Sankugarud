@@ -12,10 +12,7 @@ function decimalToBinary(decimal) {
 
   return binary;
 }
-
-// Example usage
-const decimalNumber = 42;
-const binaryNumber = decimalToBinary(decimalNumber);
+console.log(decimalToBinary(7));
 
 console.log(`Decimal: ${decimalNumber}`);
 console.log(`Binary: ${binaryNumber}`);
